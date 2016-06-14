@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Elite Box</title>
+      <link rel="icon" sizes="192x192" href="images/logo.svg">
+
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/material.min.css">
+      <link rel="stylesheet" href="css/customize.css">
+      <link rel="stylesheet" href="css/slide.css">
+      <link rel="stylesheet" href="css/style.css">
+      <script src="js/material.min.js"></script>
+      <script src="js/index.js"></script>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+      <!--<style>
+        body{
+          background-image: url("images/background.svg");
+          background-repeat: no-repeat;
+        }
+      </style>-->
+  </head>
+<body>
+   <!-- The drawer is always open in large screens. The header is always shown,  even in small screens. -->
+   <div class="above-header" id="hd"></div>
+
+
+   <div class="vid-container">
+  <video id="Video1" class="bgvid back" autoplay="false" muted="muted" preload="auto" loop>
+      <source src="videos/videoplayback1.mp4" type="video/mp4">
+  </video>
+    <!-- <video id="Video2" class="bgvid inner" autoplay="false" muted="muted" preload="auto" loop>
+      <source src="videos/videoplayback1.mp4" type="video/mp4">
+    </video>
+   -->
+
+   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header ">
+      <header class="mdl-layout__header ">
+         <div class="mdl-layout__header-row">
+            <!-- Title -->
+            <span class="mdl-layout-title">
+              <img src="images/logo.svg" style="width:25%">
+            ELITE Box
+            </span>
+            <!-- Add spacer, to align navigation to the right -->
+            <div class="mdl-layout-spacer"></div>
+            <!-- Navigation -->
+            <nav class="mdl-navigation  mdl-layout--large-screen-only">
+               <a class="mdl-navigation__link" href="" style="color:silver">Home</a>
+               <a class="mdl-navigation__link" href="Views/login.html" style="color:silver">Login</a> 
+               <a class="mdl-navigation__link" href="Views/signup.html" style="color:silver">Sign Up</a> 
+               <a class="mdl-navigation__link" href="" style="color:silver">About</a>      
+            </nav>
+         </div>
+      </header>
+      <div class="mdl-layout__drawer mdl-layout--small-screen-only">
+        <span class="mdl-layout-title">ELITE Box</span>
+        <nav class="mdl-navigation">
+           <a class="mdl-navigation__link" href="" style="color:silver">Home</a>
+           <a class="mdl-navigation__link" href="Views/login.html" style="color:silver">Login</a> 
+           <a class="mdl-navigation__link" href="Views/signup.html" style="color:silver">Sign Up</a> 
+           <a class="mdl-navigation__link" href="" style="color:silver">About</a>      
+        </nav>
+      </div>
+   </div>
+   <div class="mdl-layout mdl-js-layout ">      
+      <main class="mdl-layout__content">
+        <div class="inner-container" style="text-align: center;">
+          <style>
+            .threedtext {
+              color: #ECEFF1;
+              font-family: Arial, sans-serif;
+              font-size: 48px;
+              font-weight: bold;
+              align-items: center;
+              text-shadow: #afe222 1px 1px, #000 2px 2px, #000 3px 3px;
+              position: relative;
+              -moz-transition: all 0.3s ease-out;
+              -o-transition: all 0.3s ease-out;
+              -webkit-transition: all 0.3s ease-out;
+              transition: all 0.3s ease-out;
+              }
+              .threedtext:hover {
+                color: #FFF;
+                text-shadow: #afe222 1px 1px, #B0BEC5 2px 2px, #B0BEC5 3px 3px, #90A4AE 4px 4px,
+                #90A4AE 5px 5px, #90A4AE 6px 6px;
+                left: -6px;
+                top: -6px;
+              }
+          </style>
+          <br>
+          <span class="threedtext mdl-layout--large-screen-only">&nbsp<img src="images/logo.svg"> Elite Box</span>
+        </div>
+      </main>
+   </div>
+   </div>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>The Material Design Lite Example</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="../css/material.min.css">
+      <link rel="stylesheet" href="../css/customize.css">
+      <script src="../js/material.min.js"></script>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+<body>
+   <!-- The drawer is always open in large screens. The header is always shown,  even in small screens. -->
+   <div class="above-header" id="hd"></div>
+   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header ">
+      <header class="mdl-layout__header ">
+         <div class="mdl-layout__header-row">
+            <!-- Title -->
+            <span class="mdl-layout-title">ELITE Box</span>
+            <!-- Add spacer, to align navigation to the right -->
+            <div class="mdl-layout-spacer"></div>
+            <!-- Navigation -->
+            <nav class="mdl-navigation  mdl-layout--large-screen-only">
+               <a class="mdl-navigation__link" href="../index.html" style="color:silver">Home</a>
+               <a class="mdl-navigation__link" href="login.html" style="color:silver">Login</a> 
+               <a class="mdl-navigation__link" href="signup.html" style="color:silver">Sign Up</a> 
+               <a class="mdl-navigation__link" href="" style="color:silver">About</a>      
+            </nav>
+         </div>
+      </header>
+      <div class="mdl-layout__drawer mdl-layout--small-screen-only">
+        <span class="mdl-layout-title">ELITE Box</span>
+        <nav class="mdl-navigation">
+           <a class="mdl-navigation__link" href="../index.html" style="color:silver">Home</a>
+           <a class="mdl-navigation__link" href="login.html" style="color:silver">Login</a> 
+           <a class="mdl-navigation__link" href="signup.html" style="color:silver">Sign Up</a> 
+           <a class="mdl-navigation__link" href="" style="color:silver">About</a>      
+        </nav>
+      </div>
+   </div>
+  <div class="mdl-layout mdl-js-layout ">  
+    <main class="mdl-layout__content" style="top:15%">
+      <div class="slider">      
+        <div class="mdl-card mdl-shadow--2dp wrapper">
+          <div class="mdl-card__title text-center">
+            <h2 class="mdl-card__title-text">Login</h2>
+          </div>
+          <div class="mdl-card__supporting-text">
+            <form action="#">
+              <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label textfield-demo">
+                <input class="mdl-textfield__input" type="text" id="sample3" autofocus />
+                <label class="mdl-textfield__label" for="sample3"><i class="material-icons">face</i>Username</label>
+              </div>
+              <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label textfield-demo">
+                <input class="mdl-textfield__input" type="password" id="sample3" autofocus />
+                <label class="mdl-textfield__label" for="sample3"><i class="material-icons">lock</i>Password</label>
+              </div>
+              <div class="mdl-card__actions mdl-card--border text-center">
+                <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--colored mdl-button--raised">
+                  Login
+                  <!-- <input class="mdl-textfield__input" type="submit" value="LOGIN" id="confirm_password" autofocus/> -->
+                </button>
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="signup.html">
+                  Signup
+                </a>
+              </div>
+              <div class="mdl-card__actions mdl-card--border text-center">
+                <a href="forget.jsp" class="mdl-js-ripple-effect">Forget Password</a>
+              </div>
+            </form>
+          </div>
+        </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</body>
+</html>

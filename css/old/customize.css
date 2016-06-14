@@ -1,0 +1,25 @@
+.above-header{
+	/*background-color: #263238; */
+	height:2px; 
+	max-width:100%;
+	-webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+}
+@-webkit-keyframes mymove {
+    0%{background-color: #607D8B;}
+    50% {background-color: #263238;}
+    /*from {background-color: #263238;}*/
+    100% {background-color: #607D8B;}
+}
+@keyframes mymove {
+    0%{background-color: #607D8B;}
+    50% {background-color: #263238;}
+    /*from {background-color: #263238;}*/
+    100% {background-color: #607D8B;}
+}
+.text-center { 
+  text-align : center;
+}
+.wrapper {
+  margin : auto;
+}
